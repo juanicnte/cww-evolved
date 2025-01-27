@@ -8,6 +8,7 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Planes from './components/PlanesDetail'
 
+import { FaAnglesUp } from "react-icons/fa6";
 import { FaWhatsapp, FaArrowUp } from "react-icons/fa";
 
 
@@ -33,7 +34,7 @@ const ScrollToTopButton = () => {
       {/* <a href="https://wa.me/543764746323?text=👋%20¡Hola!%20Quisiera%20saber%20más%20sobre%20tus%20%20servicios.%20¿Me%20podes%20dar%20más%20información,%20por%20favor?%20💬✨" target='_blank' className="contact-header">
         <FaWhatsapp />
       </a> */}
-      <FaArrowUp onClick={scrollToTop} />
+      <FaAnglesUp onClick={scrollToTop} />
     </div>
   );
 };

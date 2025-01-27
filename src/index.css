@@ -35,3 +35,19 @@ body {
 :root {
   --yellow: rgb(254 240 138)
 }
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 10px;
+  color: var(--yellow);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--yellow); /* Color del thumb */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition: all .5s ;
+  background: rgb(189, 178, 93); /* Cambia el color del thumb al pasar el cursor */
+}
