@@ -1,0 +1,138 @@
+[
+    {
+        "id": "startup",
+        "nombre": "Start-Up",
+        "precio": "$75.990/",
+        "descripcion": "Perfecto para un sitio web personal o para negocios que necesitan presencia online simple y efectiva.",
+        "detail": "Este plan incluye hasta 3 secciones dentro de la página web, ideales para presentar información básica sobre tu negocio, servicios o portafolio. Ofrece un diseño personalizado, con un enfoque en destacar tu presencia online de manera efectiva y profesional. Es la opción ideal para quienes buscan una solución simple y funcional, sin funcionalidades avanzadas.",
+        "ventajas": [
+            "Diseño personalizado",
+            "Dominio .com / .com.ar",
+            "Certificado de Seguridad SSL",
+            "Botón de WhatsApp en la página",
+            "Formulario de contacto por correo",
+            "Optimización SEO básica"
+        ],
+        "desventajas": [
+            "Panel de administración",
+            "5 Secciones o más",
+            "Integración con Google Analytics"
+        ],
+        "technologies": [
+            {
+                "image": "React.webp",
+                "name": "React",
+                "description": "Una biblioteca de JavaScript para construir interfaces de usuario interactivas y dinámicas."
+            },
+            {
+                "image": "chakra.png",
+                "name": "Chakra UI",
+                "description": "Un framework para React que facilita el desarrollo de interfaces modernas con componentes reutilizables."
+            },
+            {
+                "image": "css-3.png",
+                "name": "CSS3",
+                "description": "Un lenguaje de diseño utilizado para describir la presentación de un documento escrito en HTML o XML."
+            },
+            {
+                "image": "framer-motion.png",
+                "name": "Framer Motion",
+                "description": "Una biblioteca de animaciones para React que permite crear transiciones fluidas y dinámicas."
+            }
+        ]
+    },
+    {
+        "id": "elevate",
+        "nombre": "Elevate",
+        "precio": "$119.990/",
+        "descripcion": "Ideal para empresas y proyectos que buscan un sitio más robusto y profesional. Con múltiples páginas y herramientas para análisis, este paquete eleva tu presencia digital.",
+        "detail": "Este plan incluye hasta 7 secciones dentro de la página web, ideales para negocios que necesitan mostrar más contenido o servicios. Incorpora herramientas de análisis como Google Analytics, permitiendo un mejor seguimiento del rendimiento del sitio. Incluye diseño personalizado con múltiples páginas, optimización SEO básica y contenido dinámico como galerías o blogs. Perfecto para empresas en crecimiento.",
+        "ventajas": [
+            "Diseño personalizado con múltiples páginas (hasta 5-7).",
+            "Dominio .com / .com.ar",
+            "Certificado de Seguridad SSL",
+            "Botón de WhatsApp en la página",
+            "Formulario de contacto por correo",
+            "Optimización SEO básica",
+            "Integración con herramientas de análisis (Google Analytics).",
+            "Hasta 5-7 páginas con contenido dinámico"
+        ],
+        "desventajas": [
+            "Panel de administración",
+            "Posibilidad de agregar contenido dinámico (galerías de fotos, blogs)."
+        ],
+        "technologies": [
+            {
+                "image": "React.webp",
+                "name": "React",
+                "description": "Una biblioteca de JavaScript para construir interfaces de usuario interactivas y dinámicas."
+            },
+            {
+                "image": "chakra.png",
+                "name": "Chakra UI",
+                "description": "Un framework para React que facilita el desarrollo de interfaces modernas con componentes reutilizables."
+            },
+            {
+                "image": "css-3.png",
+                "name": "CSS3",
+                "description": "Un lenguaje de diseño utilizado para describir la presentación de un documento escrito en HTML o XML."
+            },
+            {
+                "image": "framer-motion.png",
+                "name": "Framer Motion",
+                "description": "Una biblioteca de animaciones para React que permite crear transiciones fluidas y dinámicas."
+            }
+        ]
+    },
+    {
+        "id": "proboost",
+        "nombre": "ProBoost",
+        "precio": "$198.998/",
+        "descripcion": "Diseñado para empresas y negocios que necesitan el máximo nivel de personalización y control sobre su sitio web. Incluye funcionalidades avanzadas, herramientas de análisis y un diseño optimizado.",
+        "detail": "Este plan incluye hasta 10 secciones dentro de la página web, con un diseño completamente personalizado y adaptable a las necesidades del cliente. Además de todas las funcionalidades de los planes anteriores, incorpora un panel de administración para gestionar contenido, productos y órdenes. Es ideal para negocios que necesitan alta escalabilidad y funcionalidades avanzadas, como blogs o galerías dinámicas. Puede ampliarse según los requisitos específicos del cliente.",
+        "ventajas": [
+            "Diseño personalizado con múltiples páginas (hasta 5-7)",
+            "Dominio .com / .com.ar",
+            "Certificado de Seguridad SSL",
+            "Botón de WhatsApp en la página",
+            "Formulario de contacto por correo",
+            "Optimización avanzada de SEO.",
+            "Integración con herramientas de análisis (Google Analytics)",
+            "Posibilidad de agregar contenido dinámico (galerías de fotos, blogs)",
+            "Panel de administración"
+        ],
+        "desventajas": [],
+        "technologies": [
+            {
+                "image": "React.webp",
+                "name": "React",
+                "description": "Una biblioteca de JavaScript para construir interfaces de usuario interactivas y dinámicas."
+            },
+            {
+                "image": "chakra.png",
+                "name": "Chakra UI",
+                "description": "Un framework para React que facilita el desarrollo de interfaces modernas con componentes reutilizables."
+            },
+            {
+                "image": "css-3.png",
+                "name": "CSS3",
+                "description": "Un lenguaje de diseño utilizado para describir la presentación de un documento escrito en HTML o XML."
+            },
+            {
+                "image": "framer-motion.png",
+                "name": "Framer Motion",
+                "description": "Una biblioteca de animaciones para React que permite crear transiciones fluidas y dinámicas."
+            },
+            {
+                "image": "mongodb.webp",
+                "name": "MongoDB",
+                "description": "Una base de datos NoSQL orientada a documentos que utiliza JSON para almacenar datos."
+            },
+            {
+                "image": "node-js-icon.webp",
+                "name": "Node.js",
+                "description": "Un entorno de ejecución para JavaScript que permite construir aplicaciones del lado del servidor."
+            }
+        ]
+    }
+]

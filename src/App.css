@@ -1,0 +1,212 @@
+main{
+    margin: 1rem;
+}
+.no-scroll {
+    overflow: hidden;
+}
+
+.overlay-active {
+    height: 0vh;
+    width: 0vw;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    background: rgba(17, 17, 17, .5);
+    opacity: 0;
+}
+
+.overlay-active.active {
+    height: 1000vh;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+/* what we offer */
+
+.WhatWeOffer-mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.WhatWeOffer-title {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WhatWeOffer-title span{
+    font-size: 16px;
+}
+
+.WhatWeOffer-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.WhatWeOffer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111827;
+    padding: 4rem 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.WhatWeOffer-item h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.WhatWeOffer-item p {
+    color: #fff;
+    text-align: center;
+    margin: 0 1rem;
+    font-size: 16px;
+}
+
+.WhatWeOffer-item img {
+    margin-top: 2rem
+}
+
+.WhatWeOffer-item-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.selectCode {
+    display: flex;
+    color: #fff;
+    background: #1f283c;
+    border-radius: 7px 0 0;
+    align-items: center;
+}
+
+.selectCode span{
+    padding: .7rem;
+}
+
+.imgCode-container{
+    margin-top: 2rem;
+}
+
+
+/* scroll to top */
+
+.contact-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    position: fixed;
+    bottom: 4rem;
+    right: 0rem;
+    background: #25d366;
+  }
+  
+  .contact-header:hover {
+    background: #128c7e;
+    border: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .scrollToTop {
+    position: fixed;
+    right: 15px;
+    bottom: 7rem;
+    padding: .5rem;
+    background-color: rgba(0, 0, 0, .2);
+    opacity: 0;
+    transform: translateX(100vw);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .scrollToTop.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .scrollToTop svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .contact-header svg {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+  }
+
+
+  @media (min-width: 768px) {
+    .WhatWeOffer-title h2{
+        font-size: 24px;
+    }
+    .WhatWeOffer-item p{
+        font-size: 18px;
+    }
+    .contact-title{
+        font-size: 24px;
+    }
+    .contact-itemLeft h3{
+        font-size: 24px;
+    }
+    .contact-itemLeft h4{
+        font-size: 18px;
+    }
+    .contact-itemLeft p{
+        font-size: 16px
+    }
+    .contact-header{
+        width: 4rem;
+        height: 4rem;
+    }
+    .scrollToTop{
+        padding: 1rem;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .WhatWeOffer-title span{
+        font-size: 24px;
+    }
+    .WhatWeOffer-title h2{
+        font-size: 30px;
+    }
+    .WhatWeOffer-item h3{
+        font-size: 24px;
+    }
+    .WhatWeOffer-item p{
+        font-size: 20px;
+    }
+    .WhatWeOffer-item-container{
+        flex-direction: row;
+        
+    }
+    .WhatWeOffer-item{
+        height: 100%;
+    }
+    .scrollToTop {
+        bottom: 3rem;
+      }
+}
+
+@media (min-width: 1440px) {}

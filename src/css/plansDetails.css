@@ -1,0 +1,60 @@
+.plan-title {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.plan-detail {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.list-technologies {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.used-technologies h3{
+    margin-top: 1rem;
+    font-size: 24px;
+    color: #fff;
+}
+
+.list-technologies img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.slider-articleTech {
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid #fff;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 1rem 2rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.slider-articleTech img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.slider-articleTech h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.slider-articleTech p {
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+    color: #ebebeb;
+}

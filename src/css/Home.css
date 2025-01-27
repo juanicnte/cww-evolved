@@ -1,0 +1,491 @@
+.home-title-container {
+    margin-top: 4rem;
+}
+
+.home-title-container h1 {
+    font-size: 16px;
+}
+
+.home-title-container h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.home-title-container p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.yellow-dec {
+    color: var(--yellow);
+}
+
+.home-button-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.home-button-action button {
+    height: 3rem;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.home-button-action button:hover {
+    background-color: #cecece;
+    transition: all .3s;
+}
+
+
+/* IMAGENES KEYFRAME */
+
+.code-images {
+    margin: 2rem auto 0;
+    position: relative;
+    animation: shake 2s linear infinite;
+    width: 18rem;
+}
+
+.code-images-1 {
+    width: 100%;
+}
+
+.code-images-2 {
+    width: 55%;
+    position: absolute;
+    right: 0;
+    top: 37%;
+}
+
+
+/* VENTAJAS SLIDER */
+
+.img-slider {
+    width: 100%;
+}
+
+.ventajas-container {
+    margin-top: 7rem;
+}
+
+.ventajas-title {
+    color: #fff;
+    font-size: 20px;
+}
+
+.slider-article {
+    margin-top: 2rem;
+    width: 100%;
+    border: 1px solid #fff;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 1rem 2rem;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.slider-article svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.slider-article h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.slider-article p {
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+.swiper {
+    height: 22rem;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--yellow) !important;
+}
+
+
+/* Prices */
+
+.prices-container {
+    margin-top: 3rem;
+}
+
+.prices-titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices-titles h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.prices-titles h3 {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.prices-titles p {
+    color: #ebebeb;
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.prices-cards {
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-container {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.titles-card {
+    padding: 1rem 1rem 3rem;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.titles-card span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.titles-card h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: .5rem;
+}
+
+.titles-card p {
+    font-size: 16px;
+    color: #fff;
+    margin-top: .3rem;
+}
+
+.details-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.details-card-list li {
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: .5rem;
+    font-size: 16px;
+}
+
+.details-card-list li svg {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0
+}
+
+.card-container a {
+    width: 90%;
+    height: 3rem;
+    margin: 3rem auto 1rem;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--yellow);
+    background: transparent;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container a:hover {
+    border: 2px solid var(--yellow);
+    transition: all .7s;
+}
+
+.header-planesList {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.header-planesList svg {
+    fill: #fff;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.planes-listNames {
+    position: absolute;
+    top: 2rem;
+    width: 25rem;
+    padding: 1rem;
+    color: #000;
+    /* display: none; */
+    visibility: hidden;
+    background: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    /* Animar opacity y visibility */
+    border-radius: 10px;
+}
+
+
+.planes-listNames a {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    padding: 2rem;
+    background: #ebebeb3d;
+    font-size: 18px;
+    color: #000;
+}
+
+.planes-listNames a:hover {
+    background: #ebebeb82;
+}
+
+.planes-listNames a span {
+    font-size: 14px;
+    opacity: .7;
+}
+
+.header-planesList:hover .planes-listNames {
+    /* display: flex; */
+    visibility: visible;
+    opacity: 1;
+    flex-direction: column;
+    gap: 10px;
+    /* transition: all .5; */
+}
+
+/* ANIMACIONES */
+
+@keyframes shake {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(5px);
+    }
+
+    60% {
+        transform: translateY(0);
+    }
+
+    80% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media (min-width: 768px) {
+    main {
+        margin: 2rem;
+    }
+
+    .home-title-container h1 {
+        font-size: 20px;
+    }
+
+    .home-title-container h2 {
+        font-size: 36px;
+    }
+
+    .home-title-container p {
+        font-size: 18px;
+    }
+
+    .home-button-action {
+        gap: 4rem;
+    }
+
+    .home-button-action button {
+        width: 13rem;
+        font-size: 18px;
+    }
+
+    .code-images {
+        width: 24rem;
+    }
+
+    .ventajas-title {
+        font-size: 24px;
+    }
+
+    .prices-titles h3 {
+        font-size: 24px;
+    }
+
+    .prices-titles p {
+        font-size: 18px;
+    }
+
+    .titles-card span {
+        font-size: 24px;
+    }
+
+    .titles-card p {
+        font-size: 18px;
+    }
+
+    .details-card-list li {
+        font-size: 18px;
+    }
+
+    .card-container button {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        margin: 3rem;
+    }
+
+    .home-title-container h1 {
+        font-size: 30px;
+    }
+
+    .home-title-container h2 {
+        font-size: 42px;
+    }
+
+    .home-title-container p {
+        font-size: 20px;
+    }
+
+    .home-button-action button {
+        font-size: 20px;
+    }
+
+    .home-container-laptop {
+        display: flex;
+        align-items: center;
+    }
+
+    .home-title-container {
+        width: 70%;
+    }
+
+    .ventajas-title {
+        font-size: 30px;
+    }
+
+    .slider-article svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .slider-article h4 {
+        font-size: 2rem;
+    }
+
+    .slider-article p {
+        font-size: 22px;
+    }
+
+    .prices-titles h2 {
+        font-size: 24px;
+    }
+
+    .prices-titles h3 {
+        font-size: 30px;
+    }
+
+    .prices-titles p {
+        font-size: 20px;
+    }
+
+    .titles-card p {
+        font-size: 20px;
+    }
+
+    .details-card-list li {
+        font-size: 20px;
+    }
+
+    .prices-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    main {
+        margin: 6rem 12rem;
+    }
+}
+
+@media (min-width: 2500px) {
+    main {
+        margin: 10rem;
+    }
+
+    .home-title-container h1 {
+        font-size: 36px;
+    }
+
+    .home-title-container h2 {
+        font-size: 48px;
+    }
+
+    .home-title-container p {
+        font-size: 26px;
+    }
+
+    .home-button-action button {
+        font-size: 26px;
+        font-weight: 600;
+        width: 19rem;
+        height: 6rem;
+    }
+
+    .home-title-container {
+        width: 60%;
+    }
+
+    .code-images {
+        width: 36rem;
+    }
+
+    .home-button-action {
+        margin-top: 4rem;
+    }
+}
